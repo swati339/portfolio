@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px;
+            background-color: black;
+            color: white;
+        }
+
+      .card-body{
+        background-color: black;
+      } 
+      
+      .card-text{
+          background-color: black;
+        }
+
+        .form-group{
+          background-color: black;
+        }
+        .container{
+          background-color: black;
+        }
+      
+
+        form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin-left: 130px;
+        }
+
+        .sidebar {
+            position: fixed;
+            background-color: black;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1000;
+            padding: 20px;
+            box-shadow: black;
+            
+        }
+
+        .skills-container {
+            background-color: black;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+            padding: 20px;
+            width: 400px;
+            color: white;
+            box-sizing: content-box;
+            margin-left: 350px;
+        }
+
+        h2 {
+            color: red;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact{
+          background-color: black;
+        }
+
+        .skill-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            text-decoration: none;
+            background-color: black;
+        }
+
+        .skill-name {
+            font-weight: bold;
+            color: white;
+        }
+
+        .skill-level {
+            background-color: red;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-dark sidebar">
+            <div class="sidebar-sticky">
+                <h2 class="mb-4" style="color:#900">Portfolio</h2>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#student" style="color: white;">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: white;">
+                            Contact Me
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="color: white;">
+                            About Me
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" style="color: white;">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" style="color: white;">
+                            Skills
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <header class="bg-dark text-white text-center py-5">
+              
+                <h1 style="color:#900">Swati Dutta</h1>
+                <p class="lead" style="color:#900">Student</p>
+                <img src="images/img.jpg" class="img-fluid" height="50%">
+            </header>
+
+            <section id="about" class="container my-5">
+                <h2 class="text-center mb-4">About Me</h2>
+                <p>
+                    Hello, I'm Swati Dutta, a dedicated and passionate software developer with a solid foundation in various programming
+                    languages, frameworks, and methodologies. I am currently a student at Kathmandu Engineering College, where I honed my
+                    skills and gained
+                    valuable experience in software development. In my professional journey, I have successfully contributed to a variety of
+                    projects, showcasing my expertise in computer engineering. My portfolio features a diverse range of projects, from personal endeavors to collaborative
+                    initiatives, demonstrating my versatility and problem-solving capabilities. With a keen eye for detail and a commitment to
+                    staying abreast of industry trends, I bring a proactive approach to every development challenge. Feel free to explore my
+                    portfolio, which includes project details, code samples, and testimonials, providing a comprehensive overview of my skills
+                    and accomplishments. I am excited about the opportunity to contribute to innovative projects and bring my enthusiasm for software
+                    development to a dynamic team.
+                </p>
+            </section>
+
+            <section id="projects" class="container my-5">
+              <h2 class="text-center mb-4">Projects</h2>
+          
+              <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title">FOODfully: A food donation portal</h5>
+                      <p class="card-text">
+                          <strong>Type:</strong> Minor project<br>
+                          <strong>Year:</strong> 2022<br>
+                          Co-led a team of four for building a food donation website using PHP.
+                          Showed immense teamwork capability for both documentation and product building.
+                          Successfully delivered a well-developed product.
+                      </p>
+                  </div>
+              </div>
+          
+              <div class="card mt-4">
+                  <div class="card-body">
+                      <h5 class="card-title">NepalCares - WLiT project</h5>
+                      <p class="card-text">
+                          <strong>Year:</strong> 2023<br>
+                          Currently working on a project called NepalCares along with a team of three.
+                          Applied Node JS, Mongo DB, and ExpressJS for building the product along with the use of JavaScript, HTML, and CSS.
+                      </p>
+                  </div>
+              </div>
+          
+              <div class="card mt-4">
+                  <div class="card-body">
+                      <h5 class="card-title">Crop Recommendation System</h5>
+                      <p class="card-text">
+                          <strong>Year:</strong> 2023 (ongoing)<br>
+                          Co-leading a team of three for the college major project.
+                          Using Machine learning using Python and Firebase along with IoT devices for taking real-time data.
+                          Collected and made a dataset for training the model using different algorithms.
+                          Programming IoT devices like Arduino, Node MCU, etc. for collecting real-time data.
+                          Updating documentation with each milestone completion.
+                          Developing the product with team effort and practice.
+                      </p>
+                  </div>
+              </div>
+          </section>
+          
+            
+                    <section id="skills" class="container my-5">
+                        <div class="skills-container">
+                            <h2 class="text-center mb-4">Skills</h2>
+                            <ul class="skills-list">
+                                <!-- Technical Skills -->
+                                <li class="skill-item">
+                                    <span class="skill-name">Web Development</span>
+                                    <span class="skill-level">Advanced</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-name">HTML/CSS</span>
+                                    <span class="skill-level">Expert</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </li>
+            
+                                <!-- Soft Skills -->
+                                <li class="skill-item">
+                                    <span class="skill-name">Communication</span>
+                                    <span class="skill-level">Advanced</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-name">Problem Solving</span>
+                                    <span class="skill-level">Expert</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-name">Team Collaboration</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+            
+                    <section id="contact" class="bg-light py-5">
+                        <div class="container">
+                            <h2 class="text-center mb-4">Contact Me</h2>
+            
+                            <form action="" method="POST" role="form">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name">
+                                </div>
+            
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+            
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" name="message" id="message" rows="4" placeholder="Write your message"></textarea>
+                                </div>
+            
+                                <button type="submit" class="btn btn-primary" style="background-color: red;">Submit</button>
+                            </form>
+            
+                        </div>
+                    </section>
+                </main>
+            </div>
+          </div>
+          <footer class="bg-dark text-white text-center py-3">
+              <p style="background-color: black;">&copy; 2024 Your Portfolio. All rights reserved.</p>
+          </footer>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          </body>
+          </html>            
